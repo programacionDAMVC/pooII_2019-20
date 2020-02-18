@@ -10,6 +10,7 @@ class Agenda {
     public Agenda(String nombre) {
         this.nombre = nombre;
     }
+
     public boolean annadirContacto (Contacto contacto){
         return lista.add(contacto);
     }
@@ -17,12 +18,17 @@ class Agenda {
         return this.lista.addAll(lista);
     }
 
+    //para que funcione el método remove, Contacto debe tener
+    //sobreescrito los métodos equals y hasCode
     public boolean eliminarContacto (Contacto contacto) {
         return  lista.remove(contacto);
     }
     public void resetearAgenda() {
         lista.clear();
     }
+
+    //para que funcione el método contains, Contacto debe tener
+    //sobreescrito los métodos equals y hasCode
     public boolean existeContacto(Contacto contacto){
         return lista.contains(contacto);
     }

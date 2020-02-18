@@ -3,8 +3,11 @@ package composicion;
 import java.util.Objects;
 
 class Contacto {
+
     private String nombre;
     private String numeroTelefono;
+
+    public Contacto() {}
 
     public Contacto(String nombre, String numeroTelefono) {
         this.nombre = nombre;
@@ -42,6 +45,15 @@ class Contacto {
 
     @Override
     public int hashCode() {
-        return Objects.hash(nombre, numeroTelefono);
+        return Objects.hash(numeroTelefono);
     }
+
+    public static void main(String[] args) {
+        Contacto contacto1 = new Contacto("nombre", "telefono");
+        Contacto contacto2 = new Contacto("nombre", "telefono");
+        System.out.println("Posiciones memoria: " + (contacto1 == contacto2));
+        System.out.println("Contenido del montículo: " + contacto1.equals(contacto2));
+
+    }
+
 }

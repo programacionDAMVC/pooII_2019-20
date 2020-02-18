@@ -5,7 +5,9 @@ public class Utilidades {
         return nombre.toLowerCase().matches("[a-zñüáéíóú\\s]+");
     }
     public static boolean esTelefono(String telefono) {
-        String tef = telefono.trim().replaceAll("\\s+","");
-        return tef.matches("^[6-9][0-9]{8}$");
+        return telefono.matches("^[6-9][0-9]{8}$");
+    }
+    public static String preparaTelefono (String telefono) {
+        return telefono.trim().replaceAll("\\s+","");
     }
 }
