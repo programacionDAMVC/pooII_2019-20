@@ -1,16 +1,14 @@
-package composicion;
+package composicion.agenda;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class TestAgenda {
     public static void main(String[] args) {
         Agenda agenda = new Agenda("Amigos");
         try (Scanner sc = new Scanner(new File("ficheros/datos.txt"));){
-            while (sc.hasNextLine()) {
+            while (sc.hasNext()) {
                 String nombre = sc.next();
                 String telefono = sc.next();
                 String telefonoPreparado = Utilidades.preparaTelefono(telefono);

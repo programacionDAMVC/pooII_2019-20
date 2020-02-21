@@ -1,11 +1,17 @@
 
 Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ä°ãÿÿÿÿÿ8‚°¬»….
+Y
 squid:S106"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8îÚ•—„.
-Ysquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Ïøö”„.
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÍÔ‹¦şÿÿÿÿ8”Ô­»….
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÙÔªÖüÿÿÿÿ8¸©»….
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ËÕ»8Ã›†»….
 Ysquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Ïøö”„.
 Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÙÔªÖüÿÿÿÿ8®ê£—„.
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ä°ãÿÿÿÿÿ8íÃª»….
 Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ä°ãÿÿÿÿÿ8–ôÒ—„.
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ä°ãÿÿÿÿÿ8šˆÙ—„.
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ù¡ñúúÿÿÿÿ8Ã›†»….
+Ysquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8‚°¬»….

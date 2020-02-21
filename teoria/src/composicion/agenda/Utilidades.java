@@ -1,4 +1,4 @@
-package composicion;
+package composicion.agenda;
 
 public class Utilidades {
     public static boolean esNombre(String nombre){

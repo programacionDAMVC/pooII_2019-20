@@ -1,4 +1,4 @@
-package composicion;
+package composicion.agenda;
 
 import java.util.ArrayList;
 import java.util.List;
