@@ -1,13 +1,23 @@
 
 V
 &src/valorReferencia/PrimerEjemplo.java,1/f/1f4d617087f965995eadea35fb1614f9c6295466
-O
-src/composicion/TestAgenda.java,c/7/c7c3267575791ae9c5333b7e21f3bd6e2813440c
 B
 ficheros/datos.txt,5/1/515c4c047a5aeccd00e0a30390e46b3829ab26df
-M
-src/composicion/Contacto.java,5/4/549611edc7cc13dcabe2d996f7ffc8a8205de691
-K
-src/composicion/Agenda.java,d/c/dc014eebe748a14c12472204415d03c52de9baef
-O
-src/composicion/Utilidades.java,f/c/fc9227b26ffbab470b9781217ef1e86f4838e1c8
+T
+$src/composicion/agenda/Contacto.java,a/0/a04cc745a88f736061827410807fe18bde3f46fe
+R
+"src/composicion/agenda/Agenda.java,5/b/5b9cae541ea22ef20e88ebce071b31803dee134d
+V
+&src/composicion/agenda/TestAgenda.java,e/f/ef9bd98991a4961321e6622cd3bc18ada1c1b1fc
+V
+&src/composicion/agenda/Utilidades.java,c/1/c1b48a9db367992d44c9e4753f6039a1ae2bc6a3
+T
+$src/composicion/empresa/Empresa.java,2/f/2f4cea9434d12660a8637bd45bba742feca6918e
+X
+(src/composicion/empresa/TestEmpresa.java,1/a/1a70b7cff179418d86aba7613c7e3267ea5e2259
+g
+7src/composicion/empresa/excepeciones/DNIExcepecion.java,f/5/f569590321141ae906fcd6708109587b4b796f0b
+r
+Bsrc/composicion/empresa/excepeciones/FechaNacimientoExcepcion.java,b/5/b5d818961159e036dc44b160e6731c0d8c02cf22
+W
+'src/composicion/empresa/Trabajador.java,d/5/d5fc357ab82fd0ab0105e60c5b220573e3969f8b

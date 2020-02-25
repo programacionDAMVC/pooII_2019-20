@@ -8,33 +8,35 @@ import java.time.format.DateTimeFormatter;
 import java.util.Objects;
 
 public class Trabajador {
+
     private String dni;
-    private String nombreCompleto;
+    private String nombreCompletoTrabajador;
     private LocalDate fechaNacimiento;
 
-    public Trabajador(String dni, String nombreCompleto,String fechaNacimiento) throws DNIExcepecion, FechaNacimientoExcepcion {
+    public Trabajador(String dni, String nombreCompletoTrabajador, String fechaNacimiento) throws DNIExcepecion, FechaNacimientoExcepcion {
         if (!esDNICorrecto(dni))
             throw new DNIExcepecion();
         else if(!esFechaNacimientoCorrecta(fechaNacimiento))
             throw new FechaNacimientoExcepcion();
         else {
             this.dni = dni;
-            this.nombreCompleto = nombreCompleto;
+            this.nombreCompletoTrabajador = nombreCompletoTrabajador;
             this.fechaNacimiento = formatearFecha(fechaNacimiento);
         }
             
     }
 
     private static LocalDate formatearFecha(String fechaNacimiento) {
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/YY");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
         LocalDate localDate = LocalDate.parse(fechaNacimiento, formatter);
         return localDate;
     }
 
+    // 01-01-10    10-10-20  11-01-20
     private static boolean esFechaNacimientoCorrecta(String fechaNacimiento) {
         String dias  = "(0[1-9]|[1-2][0-9]|3[0-1])";
         String meses = "(0[1-9]|1[0-2])";
-        String annos = "[0-9]{2}";
+        String annos = "[0-9]{4}";
         return fechaNacimiento.matches(dias + "-" + meses + "-" + annos );
     }
 
@@ -50,12 +52,12 @@ public class Trabajador {
         this.dni = dni;
     }
 
-    public String getNombreCompleto() {
-        return nombreCompleto;
+    public String getNombreCompletoTrabajador() {
+        return nombreCompletoTrabajador;
     }
 
-    public void setNombreCompleto(String nombreCompleto) {
-        this.nombreCompleto = nombreCompleto;
+    public void setNombreCompletoTrabajador(String nombreCompletoTrabajador) {
+        this.nombreCompletoTrabajador = nombreCompletoTrabajador;
     }
 
     public LocalDate getFechaNacimiento() {
@@ -69,7 +71,7 @@ public class Trabajador {
     @Override
     public String toString() {
         return String.format("%S, %s.%nFecha de nacimiento: %s%n",
-                nombreCompleto, dni, fechaNacimiento);
+                nombreCompletoTrabajador, dni, fechaNacimiento.toString());
     }
 
     @Override
@@ -88,7 +90,7 @@ public class Trabajador {
     public static void main(String[] args) {
         try {
             Trabajador t = new Trabajador("12345678a", "juan",
-                    "10-10-10");
+                    "10-10-2010");
             System.out.println(t);
         } catch (DNIExcepecion   | FechaNacimientoExcepcion e ) {
             System.out.println(e.getMessage());

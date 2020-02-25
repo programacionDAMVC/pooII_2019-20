@@ -1,0 +1,4 @@
+
+csquid:S2094"BRemove this empty class, write its code or make it an "interface".(¢­Õ¸úÿÿÿÿ8ÞàÂ¶†.
+^squid:UselessImportCheck"0Remove this unused import 'java.time.LocalDate'.(›‘¬èýÿÿÿÿ8ÞàÂ¶†.
+hsquid:UselessImportCheck"?Remove this unused import 'java.time.format.DateTimeFormatter'.(‰÷÷ª8ÞàÂ¶†.
