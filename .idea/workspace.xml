@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c9992b0d-346b-4ca8-8bef-7902d34bab46" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/teoria/src/teoria/clasesInternas/TestClasesInternas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teoria/.idea/sonarlint/issuestore/1/a/1a70b7cff179418d86aba7613c7e3267ea5e2259" beforeDir="false" afterPath="$PROJECT_DIR$/teoria/.idea/sonarlint/issuestore/1/a/1a70b7cff179418d86aba7613c7e3267ea5e2259" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teoria/.idea/sonarlint/issuestore/2/f/2f4cea9434d12660a8637bd45bba742feca6918e" beforeDir="false" afterPath="$PROJECT_DIR$/teoria/.idea/sonarlint/issuestore/2/f/2f4cea9434d12660a8637bd45bba742feca6918e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teoria/.idea/sonarlint/issuestore/a/0/a04cc745a88f736061827410807fe18bde3f46fe" beforeDir="false" afterPath="$PROJECT_DIR$/teoria/.idea/sonarlint/issuestore/a/0/a04cc745a88f736061827410807fe18bde3f46fe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teoria/.idea/sonarlint/issuestore/d/5/d5fc357ab82fd0ab0105e60c5b220573e3969f8b" beforeDir="false" afterPath="$PROJECT_DIR$/teoria/.idea/sonarlint/issuestore/d/5/d5fc357ab82fd0ab0105e60c5b220573e3969f8b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teoria/.idea/sonarlint/issuestore/e/f/ef9bd98991a4961321e6622cd3bc18ada1c1b1fc" beforeDir="false" afterPath="$PROJECT_DIR$/teoria/.idea/sonarlint/issuestore/e/f/ef9bd98991a4961321e6622cd3bc18ada1c1b1fc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teoria/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/teoria/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teoria/src/clasesInternas/Externa1.java" beforeDir="false" afterPath="$PROJECT_DIR$/teoria/src/teoria/clasesInternas/Externa1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teoria/src/clasesInternas/TestClasesInternas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/teoria/src/composicion/agenda/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/teoria/src/teoria/composicion/agenda/Agenda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teoria/src/composicion/agenda/Contacto.java" beforeDir="false" afterPath="$PROJECT_DIR$/teoria/src/teoria/composicion/agenda/Contacto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teoria/src/composicion/agenda/TestAgenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/teoria/src/teoria/composicion/agenda/TestAgenda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teoria/src/composicion/agenda/Utilidades.java" beforeDir="false" afterPath="$PROJECT_DIR$/teoria/src/teoria/composicion/agenda/Utilidades.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teoria/src/composicion/empresa/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/teoria/src/teoria/composicion/empresa/Empresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teoria/src/composicion/empresa/TestEmpresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/teoria/src/teoria/composicion/empresa/TestEmpresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teoria/src/composicion/empresa/Trabajador.java" beforeDir="false" afterPath="$PROJECT_DIR$/teoria/src/teoria/composicion/empresa/Trabajador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teoria/src/composicion/empresa/excepeciones/CIFExcepecion.java" beforeDir="false" afterPath="$PROJECT_DIR$/teoria/src/teoria/composicion/empresa/excepeciones/CIFExcepecion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teoria/src/composicion/empresa/excepeciones/DNIExcepecion.java" beforeDir="false" afterPath="$PROJECT_DIR$/teoria/src/teoria/composicion/empresa/excepeciones/DNIExcepecion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teoria/src/composicion/empresa/excepeciones/FechaNacimientoExcepcion.java" beforeDir="false" afterPath="$PROJECT_DIR$/teoria/src/teoria/composicion/empresa/excepeciones/FechaNacimientoExcepcion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teoria/src/valorReferencia/PrimerEjemplo.java" beforeDir="false" afterPath="$PROJECT_DIR$/teoria/src/teoria/valorReferencia/PrimerEjemplo.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1YhgEqgcPgeW9tjcaaGVDqzXsuQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Application.TarjetaCredito">
+    <configuration name="Rectangulo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ejercicios.ejercicio1.Rectangulo" />
+      <module name="pooII" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ejercicios.ejercicio1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TarjetaCredito" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ejercicios.ejercicio2.TarjetaCredito" />
+      <module name="pooII" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ejercicios.ejercicio2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClasesInternas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="teoria.clasesInternas.TestClasesInternas" />
+      <module name="pooII" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="teoria.clasesInternas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestParametrizado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="teoria.parametrizacion.TestParametrizado" />
+      <module name="pooII" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="teoria.parametrizacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRectangulo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ejercicios.ejercicio1.TestRectangulo" />
+      <module name="pooII" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ejercicios.ejercicio1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TarjetaCredito" />
+        <item itemvalue="Application.TestRectangulo" />
+        <item itemvalue="Application.Rectangulo" />
+        <item itemvalue="Application.TestParametrizado" />
+        <item itemvalue="Application.TestClasesInternas" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9992b0d-346b-4ca8-8bef-7902d34bab46" name="Default Changelist" comment="" />
+      <created>1583400131799</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583400131799</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="82" width="484" height="557" key="#com.intellij.ide.util.MemberChooser" timestamp="1583485569079">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="320" y="82" width="484" height="557" key="#com.intellij.ide.util.MemberChooser/0.0.1024.728/0.0.1024.728@0.0.1024.728" timestamp="1583485569079" />
+    <state x="137" y="0" width="739" height="723" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583401126658">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="137" y="0" width="739" height="723" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1024.728/0.0.1024.728@0.0.1024.728" timestamp="1583401126658" />
+    <state width="982" height="156" key="GridCell.Tab.0.bottom" timestamp="1583485313291">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="982" height="156" key="GridCell.Tab.0.bottom/0.0.1024.728/0.0.1024.728@0.0.1024.728" timestamp="1583485313291" />
+    <state width="982" height="156" key="GridCell.Tab.0.center" timestamp="1583485313291">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="982" height="156" key="GridCell.Tab.0.center/0.0.1024.728/0.0.1024.728@0.0.1024.728" timestamp="1583485313291" />
+    <state width="982" height="156" key="GridCell.Tab.0.left" timestamp="1583485313291">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="982" height="156" key="GridCell.Tab.0.left/0.0.1024.728/0.0.1024.728@0.0.1024.728" timestamp="1583485313291" />
+    <state width="982" height="156" key="GridCell.Tab.0.right" timestamp="1583485313291">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="982" height="156" key="GridCell.Tab.0.right/0.0.1024.728/0.0.1024.728@0.0.1024.728" timestamp="1583485313291" />
+    <state width="982" height="216" key="GridCell.Tab.1.bottom" timestamp="1583484728849">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="982" height="216" key="GridCell.Tab.1.bottom/0.0.1024.728/0.0.1024.728@0.0.1024.728" timestamp="1583484728849" />
+    <state width="982" height="216" key="GridCell.Tab.1.center" timestamp="1583484728848">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="982" height="216" key="GridCell.Tab.1.center/0.0.1024.728/0.0.1024.728@0.0.1024.728" timestamp="1583484728848" />
+    <state width="982" height="216" key="GridCell.Tab.1.left" timestamp="1583484728848">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="982" height="216" key="GridCell.Tab.1.left/0.0.1024.728/0.0.1024.728@0.0.1024.728" timestamp="1583484728848" />
+    <state width="982" height="216" key="GridCell.Tab.1.right" timestamp="1583484728849">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="982" height="216" key="GridCell.Tab.1.right/0.0.1024.728/0.0.1024.728@0.0.1024.728" timestamp="1583484728849" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pooII$TestRectangulo.ic" NAME="TestRectangulo Coverage Results" MODIFIED="1583482107361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ejercicios.ejercicio1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/pooII$TestClasesInternas.ic" NAME="TestClasesInternas Coverage Results" MODIFIED="1583405762812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>clasesInternas.*</FILTER>
+    </SUITE>
+  </component>
+</project>

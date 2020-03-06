@@ -1,4 +1,22 @@
 
-csquid:S2094"BRemove this empty class, write its code or make it an "interface".(¢­Õ¸úÿÿÿÿ8ÞàÂ¶†.
 ^squid:UselessImportCheck"0Remove this unused import 'java.time.LocalDate'.(›‘¬èýÿÿÿÿ8ÞàÂ¶†.
 hsquid:UselessImportCheck"?Remove this unused import 'java.time.format.DateTimeFormatter'.(‰÷÷ª8ÞàÂ¶†.
+ksquid:S1192"JDefine a constant instead of duplicating this literal "12345676a" 4 times.(­•Àºÿÿÿÿÿ8¨æ¶¬ˆ.
+Nsquid:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8¨æ¶¬ˆ.
+fsquid:S2259"EA "NullPointerException" could be thrown; "empresa" is nullable here.(¦°ŒÈøÿÿÿÿ8¨æ¶¬ˆ.
+Dsquid:S1148"#Use a logger to log this exception.(íüóŒüÿÿÿÿ8¨æ¶¬ˆ.
+Dsquid:S1148"#Use a logger to log this exception.(ŠË¦‚ýÿÿÿÿ8¨æ¶¬ˆ.
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(¡ÂªÛúÿÿÿÿ8¨æ¶¬ˆ.
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Å’µæ8¨æ¶¬ˆ.
+Ksquid:EmptyStatementUsageCheck"Remove this empty statement.(Üªú™8¨æ¶¬ˆ.
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(–Ü›‚8¨æ¶¬ˆ.
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÍŸ«ßüÿÿÿÿ8¨æ¶¬ˆ.
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(éÎÁÈýÿÿÿÿ8¨æ¶¬ˆ.
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(×õÓ‘8¨æ¶¬ˆ.
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ÿ×ÆÈ8¨æ¶¬ˆ.

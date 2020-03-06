@@ -21,3 +21,7 @@ r
 Bsrc/composicion/empresa/excepeciones/FechaNacimientoExcepcion.java,b/5/b5d818961159e036dc44b160e6731c0d8c02cf22
 W
 'src/composicion/empresa/Trabajador.java,d/5/d5fc357ab82fd0ab0105e60c5b220573e3969f8b
+g
+7src/composicion/empresa/excepeciones/CIFExcepecion.java,b/2/b2870e87d84ef46765bd9e861802d4c7177f295b
+P
+ src/clasesInternas/Externa1.java,e/7/e7ff1b812b801b97dab80e10af71360dc499fbdd
