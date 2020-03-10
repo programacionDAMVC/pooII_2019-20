@@ -1,21 +1,7 @@
 
-T
-$teoria/src/generalidad/Ejemplo2.java,e/1/e1c2f2c068f4ad63a2ff4706013da6d32a19e109
-T
-$teoria/src/generalidad/Ejemplo1.java,8/a/8a3c430c2687d794fbc9e4da1f953180b7e633b1
-W
-'teoria/src/clasesInternas/Externa1.java,7/4/749dd7115bf87fac51c9df1b4d42d062bee8aba1
-W
-'teoria/src/clasesInternas/Externa2.java,0/c/0c3f481e5f2939b5f9288545073619dbffbe28b0
-W
-'teoria/src/clasesInternas/Externa3.java,7/b/7b4894451ced216c4d09836a7484144ee82c4f8a
-W
-'teoria/src/clasesInternas/Interfaz.java,3/c/3cc79f495e4d33ef39d0b89648391504742d0459
-a
-1teoria/src/clasesInternas/TestClasesInternas.java,f/e/fe4406e7c9a52c047ff99954aeb2a88ca4831c7f
-W
-'teoria/src/parametrizacion/Persona.java,f/d/fd4bd336475d3083f9a32db806bc4d8ec794e02d
-a
-1teoria/src/parametrizacion/TestParametrizado.java,9/e/9e0409b2bda07abf4a4290a3e5eae38e806ade00
-b
-2teoria/src/parametrizacion/ClaseParametrizada.java,9/9/999f0da58cbd915f3fe0fda3d475ad1046f2be7b
+`
+0teoria/src/ejercicios/ejercicio1/Rectangulo.java,0/c/0c4e7d836de81c4de6eb3031e1f9e82c7645abfd
+d
+4teoria/src/ejercicios/ejercicio1/TestRectangulo.java,7/3/73e6273a1792c30872ad631810561db5100e68b2
+d
+4teoria/src/ejercicios/ejercicio2/TarjetaCredito.java,0/c/0c05ea7dab72e6105a3e694ba7b4c9ba426eb9d4

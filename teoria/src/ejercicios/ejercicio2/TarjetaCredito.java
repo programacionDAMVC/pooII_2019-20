@@ -40,34 +40,53 @@ public class TarjetaCredito {
     @Override
     public String toString() {
         DateTimeFormatter fechaFormateadaConGuion =
-            DateTimeFormatter.ofPattern("dd-LL-yyyy");
-        return String.format("TARJETA CRÉDITO: %s, %s, %s", numeroTarjeta, titularTarjeta,
-                fechaCreacionTarjeta.format(fechaFormateadaConGuion));
+            DateTimeFormatter.ofPattern("LL/yy");
+
+        return String.format("%S%n%s%n%s", titularTarjeta, numeroTarjeta,
+                fechaCreacionTarjeta.plusYears(4).format(fechaFormateadaConGuion));
     }
 
-    public static boolean validarTarjeta (String tarjeta) {
-        class NumeroTarjeta {
-            private String numeroTarjetaSinDC;
+    public static boolean validarTarjeta (String tarjeta) { // 1,2 .... 16 cifras
+        class NumeroTarjeta {  //cifra 16 es la de control
+            private String numeroTarjetaSinDC;  // 1,2, .. 15 (sin dígito de control)
 
             public NumeroTarjeta(String numeroTarjetaSinDC) {
                 this.numeroTarjetaSinDC = numeroTarjetaSinDC;
             }
             public String obtenerTarjetaConDC() {
                 //código calcular el DC
-                String DC = "";
-                return numeroTarjetaSinDC + DC;
+                int suma = 0;
+                for (int i= 0; i < numeroTarjetaSinDC.length(); i++ ){
+                    if (i % 2 == 0) {
+                       int tmp = Integer.parseInt(numeroTarjetaSinDC.charAt(i) + "") * 2;
+                        if (tmp >= 10)
+                            suma +=  tmp - 9;
+                        else
+                            suma += tmp;
+                    }
+                    else
+                        suma += Integer.parseInt(
+                                numeroTarjetaSinDC.charAt(i) + "");
+                }
+
+                String digitoControl = (suma % 10) + "";
+                return numeroTarjetaSinDC + digitoControl;   // 1, 2, ... 16 con DC
             }
         }
-        NumeroTarjeta numeroTarjeta = new NumeroTarjeta(
+        if (!tarjeta.matches("[0-9]{16}"))
+            return false;  //no son 16 dígitos que es lo que forma una tarjeta
+         NumeroTarjeta numeroTarjeta = new NumeroTarjeta(
                 tarjeta.substring(0, tarjeta.length() - 1));
         return tarjeta.equals(numeroTarjeta.obtenerTarjetaConDC());
     }
 
     public static void main(String[] args) {
-
-        TarjetaCredito t = new TarjetaCredito(
-                "122223", "perico gonzález");
-        System.out.println(t);
+        String tarjeta = "416881884444711";
+        if (validarTarjeta(tarjeta)) {
+            TarjetaCredito t = new TarjetaCredito(
+                    "122223", "perico gonzález");
+            System.out.println(t);
+        }
 
     }
 }
